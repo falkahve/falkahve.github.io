@@ -20,30 +20,33 @@ function loadScripts(array,callback){
 
 loadScripts([
 	"http://code.jquery.com/jquery-1.10.2.min.js",
-	"//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
-   	"jquery.fittext.js",
-	"highlight.pack.js",
-	"jasny-bootstrap.min.js",
-	"docs.min.js",
-	"bootstrap-maxlength.min.js"
+	"http//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
+   	"http://cdn.soruonline.com/js/jquery.fittext.js",
+	"http://cdn.soruonline.com/js/highlight.pack.js",
+	"http://cdn.soruonline.com/js/jasny-bootstrap.min.js",
+	"http://cdn.soruonline.com/js/docs.min.js",
+	"http://cdn.soruonline.com/js/bootstrap-maxlength.min.js"
 ],function(){
     console.info('All things are loaded');
+    
+    if (typeof jQuery !== 'undefined') {
+		(function($) {
+			$('#spinner').ajaxStart(function() {
+				$(this).fadeIn();
+			}).ajaxStop(function() {
+				$(this).fadeOut();
+			});
+		})(jQuery);
+	}
+
+	$(document).ready(function() {
+ 		$('textarea[id^="textarea_"]').maxlength({
+			alwaysShow: true,
+	     		warningClass: 'label label-warning',
+	     		limitReachedClass: 'label label-success'
+     	});
+});
+    
 });
 
-if (typeof jQuery !== 'undefined') {
-	(function($) {
-		$('#spinner').ajaxStart(function() {
-			$(this).fadeIn();
-		}).ajaxStop(function() {
-			$(this).fadeOut();
-		});
-	})(jQuery);
-}
 
-$(document).ready(function() {
-		 $('textarea[id^="textarea_"]').maxlength({
-			 alwaysShow: true,
-             warningClass: 'label label-warning',
-             limitReachedClass: 'label label-success'
-	     });
-});
