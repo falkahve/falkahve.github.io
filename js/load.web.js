@@ -29,5 +29,5 @@ loadScripts([
 	"http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
 	"http://cdn.soruonline.com/js/application.web.js"
 ],function(){
-    console.info('All things are loaded');
+    console.info('loaded.');
 });
