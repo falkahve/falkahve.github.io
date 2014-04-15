@@ -6,8 +6,9 @@ function loadScripts(array,callback){
         script.onreadystatechange = script.onload = null;
         	handler();
         }
-        var head = document.getElementsByTagName('script')[0];
-        (head || document.body).appendChild( script );
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(script, s);
+        //(head || document.body).appendChild( script );
     };
     (function(){
         if(array.length!=0){
