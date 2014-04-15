@@ -20,7 +20,7 @@ function loadScripts(array,callback){
 
 loadScripts([
 	"http://code.jquery.com/jquery-1.10.2.min.js",
-	"http//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
+	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
    	"http://cdn.soruonline.com/js/jquery.fittext.js",
 	"http://cdn.soruonline.com/js/highlight.pack.js",
 	"http://cdn.soruonline.com/js/jasny-bootstrap.min.js",
