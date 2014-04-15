@@ -6,7 +6,7 @@ function loadScripts(array,callback){
         script.onreadystatechange = script.onload = null;
         	handler();
         }
-        var head = document.getElementsByTagName("head")[0];
+        var head = document.getElementsByTagName('script')[0];
         (head || document.body).appendChild( script );
     };
     (function(){
