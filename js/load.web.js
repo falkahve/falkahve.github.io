@@ -27,7 +27,7 @@ loadScripts([
 	"http://cdn.soruonline.com/js/jasny-bootstrap.min.js",
 	"http://cdn.soruonline.com/js/docs.min.js",
 	"http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
-	"http//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js",
+	"http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js",
 	"http://cdn.soruonline.com/js/application.web.js"
 ],function(){
     console.info('loaded.');
