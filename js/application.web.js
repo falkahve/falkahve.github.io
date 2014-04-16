@@ -8,6 +8,10 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
+
+$.backstretch("img/bg.jpg", {speed: 500});
+
+
 $(document).ready(function() {
  	$('textarea[id^="textarea_"]').maxlength({
 		alwaysShow: true,
