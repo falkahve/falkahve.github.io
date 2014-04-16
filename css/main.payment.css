@@ -11,6 +11,8 @@ body{
 
 .logo-main{ width: 150px; }
 
+.logo-center{ width: 75px; margin-top: 100px; }
+
 .navbar-default {
 	background-color: #FA6900;
 	border-color: #FF5C00;
