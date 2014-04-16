@@ -9,6 +9,8 @@ body{
 	background-color: transparent;
 }
 
+.logo-main{ width: 150px; }
+
 .get-the-doctor {
 	display: block;
 	height: 200px;
