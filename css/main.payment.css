@@ -8,6 +8,9 @@ html {
 body{
 	background-color: transparent;
 }
+
+.logo-main{ width: 150px; }
+
 .navbar-default {
 	background-color: #FA6900;
 	border-color: #FF5C00;
