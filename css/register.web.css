@@ -1,6 +1,6 @@
 body {
 				color: #000000;
-				background: #FE4365;
+				background: #FA6900;
 				min-width: 300px;
 				padding-top: 20px;
 			  	padding-bottom: 20px;
@@ -95,8 +95,8 @@ body {
 				padding: 0px;
 				margin-bottom: 20px;
 				line-height: 1.42857143;
-				background-color: #FE4365;
-				border: 1px solid #FE4365;
+				background-color: #FA6900;
+				border: 1px solid #FA6900;
 				border-radius: 2px;
 				-webkit-transition: all .2s ease-in-out;
 				transition: all .2s ease-in-out;
