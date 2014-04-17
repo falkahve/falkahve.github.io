@@ -7,3 +7,5 @@ if (typeof jQuery !== 'undefined') {
 		});
 	})(jQuery);
 }
+
+$.backstretch("http://cdn.soruonline.com/img/bg.jpg", {speed: 500});
