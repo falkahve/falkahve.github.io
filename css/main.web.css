@@ -9,7 +9,12 @@ body{
 	background-color: transparent;
 }
 
-.nav{
+.editors{
+    max-height: 300px;
+    overflow-y:scroll; 
+}
+
+.moderators{
     max-height: 300px;
     overflow-y:scroll; 
 }
