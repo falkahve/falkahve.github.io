@@ -10,13 +10,13 @@ body{
 }
 
 .editors{
-    max-height: 300px;
-    overflow-y:scroll; 
+    max-height: 100px;
+    overflow-y:auto; 
 }
 
 .moderators{
-    max-height: 300px;
-    overflow-y:scroll; 
+    max-height: 100px;
+    overflow-y:auto; 
 }
 
 .logo-main{ width: 150px; }
