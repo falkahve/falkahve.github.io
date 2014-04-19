@@ -11,12 +11,12 @@ body{
 
 .editors{
     height: 100px;
-    overflow-y:scroll; 
+    overflow-y:auto; 
 }
 
 .moderators{
     height: 100px;
-    overflow-y:scroll; 
+    overflow-y:auto; 
 }
 
 .logo-main{ width: 150px; }
