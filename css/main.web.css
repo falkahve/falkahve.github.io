@@ -10,12 +10,12 @@ body{
 }
 
 .editors{
-    max-height: 100px;
+    height: 100px;
     overflow-y:scroll; 
 }
 
 .moderators{
-    max-height: 100px;
+    height: 100px;
     overflow-y:scroll; 
 }
 
