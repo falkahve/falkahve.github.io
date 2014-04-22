@@ -9,6 +9,10 @@ body{
 	background-color: transparent;
 }
 
+.blog-main{
+	background-color: #FFFFFF;
+}
+
 .editors{
     height: 100px;
     overflow-y:auto; 
