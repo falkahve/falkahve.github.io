@@ -23,7 +23,7 @@ loadScripts([
 	"http://code.jquery.com/jquery-1.10.2.min.js",
 	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
 	"http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js",
-	"http://cdn.soruonline.com/js/application.payment.js"
+	"http://cdn.falkahve.com/js/application.payment.js"
 ],function(){
     console.info('loaded.');
 });
