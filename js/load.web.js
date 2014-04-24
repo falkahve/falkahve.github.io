@@ -30,7 +30,7 @@ loadScripts([
 	"http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js",
     "//cdnjs.cloudflare.com/ajax/libs/jquery-jcrop/0.9.12/js/jquery.Jcrop.min.js",
     "http://cdn.soruonline.com/js/jquery.attach.web.js",
-    "http://cdn.soruonline.com/js/application.web.js"
+    "http://cdn.soruonline.com/js/jquery.SimpleCropper.js"
 ],function(){
     console.info('loaded.');
 });
