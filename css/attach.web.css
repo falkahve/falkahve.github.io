@@ -81,13 +81,33 @@
   
 }
 
+#p1{
+   padding-left: 0px; 
+   padding-right: 0px; 
+}
+#p2{
+   padding-left: 0px; 
+   padding-right: 0px; 
+}
+#p3{
+   padding-left: 0px; 
+   padding-right: 0px; 
+}
+
+.cropme{
+  /*position: relative;*/
+  width: 100%;
+  height: 245px;
+  /*padding-bottom: 100%;*/
+}
+
 .cropme{
   float: left;
-  width: 240px;
-  height: 240px;
+  width: 245px;
+  height: 245px;
   background-color: #f1f1f1;
   margin-bottom: 5px;
-  margin-right: 5px;
+  /*margin-right: 5px;*/
   background-image: url('../img/attach/UploadLight.png');
   background-position: center center;
   background-repeat: no-repeat;
