@@ -220,7 +220,7 @@
 		success: function(res, textStatus) {
 			console.log(res);
 			imageFoo.src = res;
-      $(".p"+p_id+"url").value = res;
+      $("#p"+p_id+"url").val(res);
 		}
 	});
 
