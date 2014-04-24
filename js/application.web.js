@@ -10,7 +10,7 @@ if (typeof jQuery !== 'undefined') {
 
 
 $.backstretch("http://cdn.soruonline.com/img/bg.jpg", {speed: 500});
-
+$('.cropme').simpleCropper();
 
 $(document).ready(function() {
  	$('textarea[id^="textarea_"]').maxlength({
