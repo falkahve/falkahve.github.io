@@ -95,16 +95,13 @@
 }
 
 .cropme{
-  /*position: relative;*/
-  width: 100%;
-  height: 245px;
-  /*padding-bottom: 100%;*/
-}
-
-.cropme{
+  position: relative;
   float: left;
-  width: 245px;
-  height: 245px;
+  width: 100%;
+  height: 0;
+  /*width: 245px;*/
+  /*height: 245px;*/
+  padding-bottom: 100%;
   background-color: #f1f1f1;
   margin-bottom: 5px;
   /*margin-right: 5px;*/
