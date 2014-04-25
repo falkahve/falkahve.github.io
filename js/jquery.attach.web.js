@@ -201,7 +201,7 @@
       imageFoo.src = 'http://cdn.soruonline.com/img/attach/loader.gif';
       // imageFoo.width = aspXX;
       // imageFoo.height = aspYY;
-      imageFoo.class="question-photo-photo";
+      imageFoo.className="question-photo-photo";
 
       // Append it to the body element
       $('#preview').delay(100).hide();
