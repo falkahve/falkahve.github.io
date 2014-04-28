@@ -103,9 +103,7 @@
   padding-right: 0px;
 }
 
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
+@media (min-width: 992px){
   .question-photo-in{
       position:relative;
       width:100%;
@@ -116,20 +114,7 @@
   }
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
-  .question-photo-in{
-      position:relative;
-      width:100%;
-      max-height: 250px;
-      overflow: hidden;
-      /*height:0;*/
-      /*padding-bottom: 100%;*/
-  }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
+@media (min-width: 1200px){
   .question-photo-in{
       position:relative;
       width:100%;
