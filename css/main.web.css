@@ -9,29 +9,6 @@ body{
 	background-color: transparent;
 }
 
-.box {
-	display: inline-block;
-	position: relative;
-	width: 20%;
-	margin: 5% 5% 0 0;
-	float: left;
-	font-size: 12px;
-}
-
-.content {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	text-align: center;
-	vertical-align: center;
-}
-
-.content span {
-	display: block;
-}
-
 .editors{
     height: 100px;
     overflow-y:auto; 
