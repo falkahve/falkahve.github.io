@@ -9,11 +9,7 @@ if (typeof jQuery !== 'undefined') {
 }
 
 $(window).resize(function() {
-	jQuery('.nailthumb-container').nailthumb();
-});
 
-jQuery(document).ready(function() {
-    jQuery('.nailthumb-container').nailthumb();
 });
 
 $.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
