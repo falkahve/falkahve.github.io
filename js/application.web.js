@@ -8,10 +8,6 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
-$(window).resize(function() {
-
-});
-
 $.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
 $('.cropme').simpleCropper();
 
