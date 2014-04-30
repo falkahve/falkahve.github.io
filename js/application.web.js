@@ -9,7 +9,7 @@ if (typeof jQuery !== 'undefined') {
 }
 
 
-$.backstretch("http://cdn.soruonline.com/img/bg.jpg", {speed: 500});
+$.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
 $('.cropme').simpleCropper();
 
 function show(obj) {
