@@ -8,6 +8,10 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
+$(window).resize(function() {
+	jQuery('.nailthumb-container').nailthumb();
+});
+
 jQuery(document).ready(function() {
     jQuery('.nailthumb-container').nailthumb();
 });
