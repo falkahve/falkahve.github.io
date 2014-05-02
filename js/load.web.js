@@ -20,7 +20,7 @@ function loadScripts(array,callback){
 }
 
 loadScripts([
-	"http://code.jquery.com/jquery-1.10.2.min.js",
+	"http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js",
 	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
    	"http://cdn.falkahve.com/js/jquery.fittext.js",
 	"http://cdn.falkahve.com/js/highlight.pack.js",
@@ -28,7 +28,10 @@ loadScripts([
 	"http://cdn.falkahve.com/js/docs.min.js",
 	"http://cdn.falkahve.com/js/bootstrap-maxlength.min.js",
 	"http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js",
-	"http://cdn.falkahve.com/js/application.web.js"
+    "http://lokeshdhakar.com/projects/lightbox2/js/lightbox.js",
+    "http://cdnjs.cloudflare.com/ajax/libs/jquery-jcrop/0.9.12/js/jquery.Jcrop.min.js",
+    "http://cdn.falkahve.com/js/jquery.attach.web.js",
+    "http://cdn.falkahve.com/js/application.web.js"
 ],function(){
     console.info('loaded.');
 });

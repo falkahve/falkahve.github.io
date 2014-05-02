@@ -8,9 +8,13 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
+$.backstretch("http://cdn.falkahve.com/img/bg1.jpg", {speed: 500});
+$('.cropme').simpleCropper();
 
-//$.backstretch("http://cdn.falkahve.com/img/bg.jpg", {speed: 500});
-
+function show(obj) {
+		    var el = document.getElementById(obj);
+		    el.style.display = 'block';
+		}
 
 $(document).ready(function() {
  	$('textarea[id^="textarea_"]').maxlength({
@@ -19,6 +23,3 @@ $(document).ready(function() {
      		limitReachedClass: 'label label-success'
      	});
 });
-
-
-
