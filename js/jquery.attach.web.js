@@ -198,7 +198,7 @@
       var dataUrl = canvas.toDataURL();
       var imageFoo = document.createElement('img');
       //imageFoo.src = dataUrl;
-      imageFoo.src = 'http://cdn.soruonline.com/img/attach/loader.gif';
+      imageFoo.src = 'http://cdn.falkahve.com/img/attach/loader.gif';
       // imageFoo.width = aspXX;
       // imageFoo.height = aspYY;
       imageFoo.className="question-photo-photo";
@@ -213,7 +213,7 @@
 	var p_id = file_display_area.attr('id');
 	console.log(p_id);
 	$.ajax({
-		url: 'http://web.soruonline.com/home/p'+p_id,
+		url: 'http://web.falkahve.com/home/p'+p_id,
     //url: 'http://192.168.1.60:8080/home/p'+p_id,
 		dataType: 'text',
 		data: {p:image64},
