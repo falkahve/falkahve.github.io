@@ -15,6 +15,7 @@ body{
 }
 
 .currentStep {
+	padding: 5px;
 	font-size: 120%;
 }
 
