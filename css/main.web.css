@@ -9,6 +9,25 @@ body{
 	background-color: transparent;
 }
 
+
+.prevLink {
+	font-size: 100%;
+}
+
+.currentStep {
+	padding: 5px;
+	font-size: 120%;
+}
+
+.step {
+	padding: 5px;
+	font-size: 100%;
+}
+
+.nextLink {
+	font-size: 100%;
+}
+
 .blog-main{
 	background-color: #FFFFFF;
 }
