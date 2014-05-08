@@ -24,13 +24,13 @@ function show(obj) {
 		    el.style.display = 'block';
 		}
 
-$(document).ready(function() {
- 	$('textarea[id^="textarea_"]').maxlength({
-		alwaysShow: true,
-     		warningClass: 'label label-warning',
-     		limitReachedClass: 'label label-success'
-     	});
-});
+// $(document).ready(function() {
+//  	$('textarea[id^="textarea_"]').maxlength({
+// 		alwaysShow: true,
+//      		warningClass: 'label label-warning',
+//      		limitReachedClass: 'label label-success'
+//      	});
+// });
 
 
 
