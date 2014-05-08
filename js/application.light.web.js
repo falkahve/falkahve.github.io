@@ -11,11 +11,38 @@ if (typeof jQuery !== 'undefined') {
 // $.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
 // $('.cropme').simpleCropper();
 
-$('.tagsinput').tagsinput({
-  typeahead: {
-    source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo']
-  }
-});
+var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
+  'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii',
+  'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana',
+  'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota',
+  'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire',
+  'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota',
+  'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island',
+  'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
+  'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
+];
+
+// $('.tagsinput').tagsinput({
+//   typeahead: {
+//     source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo']
+//   }
+// });
+
+$('.tagsinput').tagsinput('.tagsinput').typeahead({
+  hint: true,
+  highlight: true,
+  minLength: 1
+},
+{
+  name: 'states',
+  displayKey: 'value',
+  source: substringMatcher(states)
+  
+}).bind('typeahead:selected', $.proxy(function (obj, datum) {
+	this.tagsinput('add', datum);
+	this.tagsinput('.tagsinput').typeahead('setQuery', '');
+}, $('.tagsinput')));
+
 
 function show(obj) {
 		    var el = document.getElementById(obj);
@@ -29,3 +56,9 @@ $(document).ready(function() {
      		limitReachedClass: 'label label-success'
      	});
 });
+
+
+
+ 
+
+
