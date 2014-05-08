@@ -8,8 +8,6 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
-$('.cropme').simpleCropper();
-
 $('#tokenfield').tokenfield({
 				  autocomplete: {
 				    source: ['red','blue','green','yellow','violet','brown','purple','black','white'],
