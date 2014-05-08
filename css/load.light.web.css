@@ -5,5 +5,7 @@
 
 @import url(http://cdn.soruonline.com/css/main.light.web.css);
 
-@import url(http://cdn.soruonline.com/css/token/bootstrap-tokenfield.min.css);
-@import url(http://cdn.soruonline.com/css/token/tokenfield-typeahead.min.css);
+/*@import url(http://cdn.soruonline.com/css/token/bootstrap-tokenfield.min.css);*/
+/*@import url(http://cdn.soruonline.com/css/token/tokenfield-typeahead.min.css);*/
+
+@import url(http://cdn.soruonline.com/css/token/bootstrap-tagsinput.css);
