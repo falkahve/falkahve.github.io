@@ -11,11 +11,11 @@ if (typeof jQuery !== 'undefined') {
 // $.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
 // $('.cropme').simpleCropper();
 
-$('input').tagsinput({
-  typeahead: {
-    source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo']
-  }
-});
+// $('input').tagsinput({
+//   typeahead: {
+//     source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo']
+//   }
+// });
 
 var substringMatcher = function(strs) {
   return function findMatches(q, cb) {
