@@ -12,6 +12,10 @@ if (typeof jQuery !== 'undefined') {
 // $('.cropme').simpleCropper();
 
 $('input').tagsinput({
+    itemValue: 'id'
+});
+
+$('input').tagsinput({
   typeahead: {
     source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo'],
     freeInput: false
