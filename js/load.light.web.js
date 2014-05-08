@@ -26,7 +26,8 @@ loadScripts([
     "http://cdn.soruonline.com/js/jquery.fittext.js",
     "http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
     "http://cdn.soruonline.com/js/bootstrap-tagsinput.js",
-	"http://cdn.soruonline.com/js/application.light.web.js"
+	"http://cdn.soruonline.com/js/application.light.web.js",
+    "http://cdn.soruonline.com/js/app.js"
 ],function(){
     console.info('loaded.');
 });
