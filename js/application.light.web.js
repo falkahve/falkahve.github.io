@@ -24,7 +24,8 @@ $(document).ready(function() {
      	});
 });
 
-$('input').tagsinput({
+elt = $('.tagclass > > input');
+elt.tagsinput({
   tagClass: function(item) {
     switch (item.continent) {
       case 'Europe'   : return 'label label-primary';
@@ -37,22 +38,23 @@ $('input').tagsinput({
   itemValue: 'value',
   itemText: 'text'
 });
-$('input').tagsinput('add', { "value": 1 , "text": "Amsterdam"   , "continent": "Europe"    });
-$('input').tagsinput('add', { "value": 4 , "text": "Washington"  , "continent": "America"   });
-$('input').tagsinput('add', { "value": 7 , "text": "Sydney"      , "continent": "Australia" });
-$('input').tagsinput('add', { "value": 10, "text": "Beijing"     , "continent": "Asia"      });
-$('input').tagsinput('add', { "value": 13, "text": "Cairo"       , "continent": "Africa"    });
- 
-// Adding custom typeahead support using http://twitter.github.io/typeahead.js
-$('input').tagsinput('input').typeahead({
+elt.tagsinput('add', { "value": 1 , "text": "Amsterdam"   , "continent": "Europe"    });
+elt.tagsinput('add', { "value": 4 , "text": "Washington"  , "continent": "America"   });
+elt.tagsinput('add', { "value": 7 , "text": "Sydney"      , "continent": "Australia" });
+elt.tagsinput('add', { "value": 10, "text": "Beijing"     , "continent": "Asia"      });
+elt.tagsinput('add', { "value": 13, "text": "Cairo"       , "continent": "Africa"    });
+
+elt.tagsinput('input').typeahead({
   valueKey: 'text',
-  prefetch: 'cities.json',
-  template: '<p>{{text}}</p>',                                      
+  prefetch: 'assets/cities.json',
+  template: '<p>{{text}}</p>',                                       
   engine: Hogan
 }).bind('typeahead:selected', $.proxy(function (obj, datum) {  
-  this.tagsinput('add', datum);
-  this.tagsinput('input').typeahead('setQuery', '');
-}, $('input')));
+	this.tagsinput('add', datum);
+	this.tagsinput('input').typeahead('setQuery', '');
+}, elt));
+
+
 
 
 
