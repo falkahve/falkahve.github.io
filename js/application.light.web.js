@@ -11,7 +11,7 @@ if (typeof jQuery !== 'undefined') {
 // $.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
 // $('.cropme').simpleCropper();
 
-$('.example_tagclass >> input').tagsinput({
+$('input').tagsinput({
   tagClass: function(item) {
     switch (item.continent) {
       case 'Europe'   : return 'label label-primary';
