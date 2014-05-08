@@ -77,7 +77,7 @@ elt.tagsinput('add', { "value": 13, "text": "Cairo"       , "continent": "Africa
 
 elt.tagsinput('input').typeahead({
   valueKey: 'text',
-  prefetch: 'http://cdn.soruonline.com/js/cities.json',
+  prefetch: 'js/cities.json',
   template: '<p>{{text}}</p>',                                       
   engine: Hogan
 }).bind('typeahead:selected', $.proxy(function (obj, datum) {  
