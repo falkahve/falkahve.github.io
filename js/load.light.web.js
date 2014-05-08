@@ -26,6 +26,7 @@ loadScripts([
     "http://cdn.soruonline.com/js/jquery.fittext.js",
     "http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
     // "http://cdn.soruonline.com/js/token/bootstrap-tagsinput.min.js",
+    "http://timschlechter.github.io/bootstrap-tagsinput/examples/bower_components/angular/angular.min.js",
     "http://timschlechter.github.io/bootstrap-tagsinput/examples/bower_components/typeahead.js/dist/typeahead.min.js",
     "http://timschlechter.github.io/bootstrap-tagsinput/dist/bootstrap-tagsinput-angular.js",
     "http://timschlechter.github.io/bootstrap-tagsinput/examples/bower_components/typeahead.js/test/vendor/hogan-2.0.0.js",
