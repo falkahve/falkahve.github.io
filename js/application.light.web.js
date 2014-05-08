@@ -12,12 +12,12 @@ if (typeof jQuery !== 'undefined') {
 // $('.cropme').simpleCropper();
 
 $('#tokenfield').tokenfield({
-				  tokens: ['red','blue','green','yellow','violet','brown','purple','black','white'],
-				  autocomplete: {
-				    source: ['red','blue','green','yellow','violet','brown','purple','black','white'],
-				    delay: 100
-				  },
-				  showAutocompleteOnFocus: true
+				  typeahead: [null, { source: ['red','blue','green','yellow','violet','brown','purple','black','white'] }]
+				  // autocomplete: {
+				  //   source: ['red','blue','green','yellow','violet','brown','purple','black','white'],
+				  //   delay: 100
+				  // },
+				  // showAutocompleteOnFocus: true
 				})
 
 function show(obj) {
