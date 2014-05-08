@@ -22,8 +22,7 @@ function loadScripts(array,callback){
 loadScripts([
 	"http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js",
 	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
-    // "http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.bundle.min.js",
-    "http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.9.3/typeahead.min.js",
+    "http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.bundle.min.js",
     "http://cdn.soruonline.com/js/jquery.fittext.js",
     "http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
     "http://cdn.soruonline.com/js/bootstrap-tagsinput.js",
