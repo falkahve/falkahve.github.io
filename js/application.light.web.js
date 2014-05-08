@@ -8,8 +8,8 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
-$.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
-$('.cropme').simpleCropper();
+// $.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
+// $('.cropme').simpleCropper();
 
 var substringMatcher = function(strs) {
   return function findMatches(q, cb) {
