@@ -20,7 +20,8 @@ function loadScripts(array,callback){
 }
 
 loadScripts([
-	"http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+	// "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+    "http://code.jquery.com/jquery-1.10.2.min.js",
 	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
     "http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.bundle.min.js",
     "http://cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.0/hogan.js",
