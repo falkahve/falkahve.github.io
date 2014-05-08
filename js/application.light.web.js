@@ -14,7 +14,7 @@ if (typeof jQuery !== 'undefined') {
 $('input').tagsinput({
   typeahead: {
     source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo'],
-    freeInput: true
+    freeInput: false
   }
 });
 
