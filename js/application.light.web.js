@@ -12,7 +12,7 @@ if (typeof jQuery !== 'undefined') {
 // $('.cropme').simpleCropper();
 
 $('#tokenfield').tokenfield({
-				  typeahead: ['red','blue','green','yellow','violet','brown','purple','black','white'],
+				  tokens: ['red','blue','green','yellow','violet','brown','purple','black','white'],
 				  autocomplete: {
 				    source: ['red','blue','green','yellow','violet','brown','purple','black','white'],
 				    delay: 100
