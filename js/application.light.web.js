@@ -8,6 +8,9 @@ if (typeof jQuery !== 'undefined') {
 	})(jQuery);
 }
 
+// $.backstretch("http://cdn.soruonline.com/img/bg1.jpg", {speed: 500});
+// $('.cropme').simpleCropper();
+
 $('#tokenfield').tokenfield({
 				  autocomplete: {
 				    source: ['red','blue','green','yellow','violet','brown','purple','black','white'],
