@@ -22,6 +22,7 @@ function loadScripts(array,callback){
 loadScripts([
 	"http://code.jquery.com/jquery-1.10.2.min.js",
 	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
+    "http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.jquery.min.js",
     "http://cdn.soruonline.com/js/jquery.fittext.js",
     "http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
     "http://cdn.soruonline.com/js/token/bootstrap-tagsinput.min.js",
