@@ -22,27 +22,11 @@ var states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California',
   'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'
 ];
 
-// $('.tagsinput').tagsinput({
-//   typeahead: {
-//     source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo']
-//   }
-// });
-
-$('.tagsinput').tagsinput('.tagsinput').typeahead({
-  hint: true,
-  highlight: true,
-  minLength: 1
-},
-{
-  name: 'states',
-  displayKey: 'value',
-  source: substringMatcher(states)
-  
-}).bind('typeahead:selected', $.proxy(function (obj, datum) {
-	this.tagsinput('add', datum);
-	this.tagsinput('.tagsinput').typeahead('setQuery', '');
-}, $('.tagsinput')));
-
+$('.tagsinput').tagsinput({
+  typeahead: {
+    source: substringMatcher(states)
+  }
+});
 
 function show(obj) {
 		    var el = document.getElementById(obj);
