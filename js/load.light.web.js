@@ -25,7 +25,7 @@ loadScripts([
     "http://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.bundle.min.js",
     "http://cdn.soruonline.com/js/jquery.fittext.js",
     "http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
-    "http://cdn.soruonline.com/js/token/bootstrap-tagsinput.min.js",
+    "http://cdn.soruonline.com/js/bootstrap-tagsinput.min.js",
 	"http://cdn.soruonline.com/js/application.light.web.js"
 ],function(){
     console.info('loaded.');

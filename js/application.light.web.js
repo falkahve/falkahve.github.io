@@ -24,7 +24,7 @@ $(document).ready(function() {
      	});
 });
 
-$('.example_tagclass > > input').tagsinput({
+$('.example_tagclass >> input').tagsinput({
   tagClass: function(item) {
     switch (item.continent) {
       case 'Europe'   : return 'label label-primary';
