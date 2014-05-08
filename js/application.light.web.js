@@ -46,7 +46,7 @@ $('input').tagsinput('add', { "value": 13, "text": "Cairo"       , "continent": 
 // Adding custom typeahead support using http://twitter.github.io/typeahead.js
 $('input').tagsinput('input').typeahead({
   valueKey: 'text',
-  prefetch: 'token/cities.json',
+  prefetch: 'cities.json',
   template: '<p>{{text}}</p>',                                      
   engine: Hogan
 }).bind('typeahead:selected', $.proxy(function (obj, datum) {  
