@@ -40,7 +40,7 @@ elt.tagsinput('add', { "value": 13, "text": "Cairo"       , "continent": "Africa
 
 elt.tagsinput('input').typeahead({
   valueKey: 'text',
-  source: substringMatcher(states),
+  source: ['Amsterdam', 'Washington', 'Sydney', 'Beijing', 'Cairo'],
   template: '<p>{{text}}</p>',                                       
   engine: Hogan
 }).bind('typeahead:selected', $.proxy(function (obj, datum) {  
