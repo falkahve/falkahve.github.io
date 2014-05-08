@@ -21,12 +21,11 @@ function loadScripts(array,callback){
 
 loadScripts([
 	"http://code.jquery.com/jquery-1.10.2.min.js",
-    "http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js",
 	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
     "http://cdn.soruonline.com/js/jquery.fittext.js",
     "http://cdn.soruonline.com/js/bootstrap-maxlength.min.js",
-    "http://cdn.soruonline.com/js/application.light.web.js",
-    "http://cdn.soruonline.com/js/token/bootstrap-tagsinput.min.js"
+    "http://cdn.soruonline.com/js/token/bootstrap-tagsinput.min.js",
+	"http://cdn.soruonline.com/js/application.light.web.js"
 ],function(){
     console.info('loaded.');
 });
