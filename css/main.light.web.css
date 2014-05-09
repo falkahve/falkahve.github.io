@@ -29,7 +29,7 @@ body{
 }
 
 .blog-main{
-	/*background-color: #FFFFFF;*/
+	background-color: #FFFFFF;
 }
 
 .editors{
@@ -54,32 +54,32 @@ body{
 	width: 185px;
 }
 .navbar-default {
-	background-color: #FA6900;
-	border-color: #FF5C00;
+	background-color: #8E5B3E;
+	border-color: #674941;
 }
 
 a {
-	color: #FA6900;
+	color: #8E5B3E;
 }
 
 a:hover,a:focus {
-	color: #FF5C00;
+	color: #674941;
 }
 .btn-primary {
 	color: #FFF;
-	background-color: #FA6900;
-	border-color: #FA6900;
+	background-color: #8E5B3E;
+	border-color: #8E5B3E;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
 	color: #FFF;
-	background-color: #FF5C00;
-	border-color: #FF5C00;
+	background-color: #674941;
+	border-color: #674941;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	color: #FFF;
-	background-color: #FF5C00;
+	background-color: #674941;
 }
 
 .modal-body {
@@ -124,7 +124,7 @@ a:hover,a:focus {
   	outline: none;
   	border: 1;
   	box-shadow:none !important;
-  	border-color: #FF5C00;
+  	border-color: #674941;
 }
 .form-signin input[type="text"] {
   	margin-bottom: 5px;
@@ -194,15 +194,15 @@ a:hover,a:focus {
 	padding: 0px;
 	margin-bottom: 20px;
 	line-height: 1.42857143;
-	background-color: #FA6900;
-	border: 1px solid #FA6900;
+	background-color: #8E5B3E;
+	border: 1px solid #8E5B3E;
 	border-radius: 2px;
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
 .btn-primary {
 	color: #FFF;
-	border-color: #FF5C00;
+	border-color: #674941;
 }
 .form-signin .form-control:focus {
   z-index: 1;
