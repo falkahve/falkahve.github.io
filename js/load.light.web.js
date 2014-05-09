@@ -4,7 +4,7 @@ function loadScripts(array,callback){
         script.src = src;
         script.onload = script.onreadystatechange = function(){
         script.onreadystatechange = script.onload = null;
-        	handler();
+            handler();
         }
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(script, s);
@@ -12,18 +12,21 @@ function loadScripts(array,callback){
     };
     (function(){
         if(array.length!=0){
-        	loader(array.shift(),arguments.callee);
+            loader(array.shift(),arguments.callee);
         }else{
-        	callback && callback();
+            callback && callback();
         }
     })();
 }
 
 loadScripts([
-	"http://code.jquery.com/jquery-1.10.2.min.js",
-	"http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
-  "http://cdn.falkahve.com/js/jquery.fittext.js",
-	"http://cdn.falkahve.com/js/application.web.js"
+    "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js",
+    // "http://code.jquery.com/jquery-1.10.2.min.js",
+    "http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js",
+    "http://cdn.falkahve.com/js/jquery.fittext.js",
+    "http://cdn.falkahve.com/js/bootstrap-maxlength.min.js",
+    "http://cdn.falkahve.com/js/application.light.web.js"
 ],function(){
     console.info('loaded.');
 });
+
